@@ -28,7 +28,7 @@
         offset: {
             top: 100
         }
-    })
+    });
 
     // Floating label headings for the contact form
     $(function() {
@@ -39,6 +39,11 @@
         }).on("blur", ".floating-label-form-group", function() {
             $(this).removeClass("floating-label-form-group-with-focus");
         });
+    });    
+
+    // Reload Youtube Videos after closing modal
+    $(".portfolio-modal").on('hidden.bs.modal', function (e) {
+        $(".portfolio-modal iframe").attr("src", $(".portfolio-modal iframe").attr("src"));
     });
 
 })(jQuery); // End of use strict

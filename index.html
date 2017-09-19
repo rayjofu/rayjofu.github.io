@@ -51,14 +51,18 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#resume">Résumé</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
+<!--                     <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li> -->
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
                     </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -67,16 +71,21 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header id="resume">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-               		<!-- <img class="img-circle img-responsive" src="http://placehold.it/250x250"> -->
+                    <!-- <img class="img-circle img-responsive" src="http://placehold.it/250x250"> -->
                     <img class="img-circle img-responsive" src="img/profile.jpg" alt="">
                     <div class="intro-text">
                         <span class="name">Rayjo Fu</span>
                         <hr class="star-light">
                         <span class="skills">Programmer</span>
+                    </div>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <a href="Resume_Rayjo.pdf" class="btn btn-lg btn-outline">
+                            <i class="fa fa-download"></i> Résumé
+                        </a>
                     </div>
                 </div>
             </div>
@@ -93,6 +102,16 @@
                 </div>
             </div>
             <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#TechDemos" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tornadotower.png" class="img-responsive center-block" alt="">
+                    </a>
+                </div>
                 <div class="col-sm-4 portfolio-item">
                     <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
@@ -159,7 +178,7 @@
 
     <!-- About Section -->
     <section class="success" id="about">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About</h2>
@@ -176,7 +195,7 @@
                     </a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- Contact Section -->
@@ -239,15 +258,11 @@
 -->
 
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" id="contact">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>Cupertino, CA 95014</p>
-                    </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-4 col-md-offset-4">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
@@ -264,10 +279,6 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Freelancer</h3>
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>.</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -275,7 +286,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; 2017 Rayjo Fu
+                        &copy; 2017 Rayjo Fu
                     </div>
                 </div>
             </div>
@@ -290,6 +301,35 @@
     </div>
 
     <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="TechDemos" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Tech Demos</h2>
+                            <hr class="star-primary">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZP7CkKIkvsU" frameborder="0" allowfullscreen></iframe>
+                            <p>Tornado Tower is a VR third person side-scrolling platformer made in Unreal Engine 4 for the Oculus Touch. Watch the adventure of a young prince as he explores the Tornado Tower with the aid of a whimisical wind spirit to look for the person responsible for the death of his family. The game is still under development, but you can check out the <a href="http://www.tornado-tower.com" target="_blank">official website</a> for updates!</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>February 2017
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
