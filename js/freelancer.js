@@ -43,7 +43,10 @@
 
     // Reload Youtube Videos after closing modal
     $(".portfolio-modal").on('hidden.bs.modal', function (e) {
-        $(".portfolio-modal iframe").attr("src", $(".portfolio-modal iframe").attr("src"));
+        $(".portfolio-modal #iframe-spellcasters").attr("src", $(".portfolio-modal #iframe-spellcasters").attr("src"));
+        $(".portfolio-modal #iframe-tornadotower").attr("src", $(".portfolio-modal #iframe-tornadotower").attr("src"));
+        $(".portfolio-modal #iframe-pebblelake").attr("src", $(".portfolio-modal #iframe-pebblelake").attr("src"));
+        $(".portfolio-modal #iframe-retainrecollect").attr("src", $(".portfolio-modal #iframe-retainrecollect").attr("src")); 
     });
 
 })(jQuery); // End of use strict
