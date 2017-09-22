@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -80,7 +80,7 @@
                     <div class="intro-text">
                         <span class="name">Rayjo Fu</span>
                         <hr class="star-light">
-                        <span class="skills">Programmer</span>
+                        <span class="skills">Game Programmer</span>
                     </div>
                     <div class="col-lg-8 col-lg-offset-2 text-center">
                         <a href="Resume_Rayjo.pdf" class="btn btn-lg btn-outline">
@@ -102,23 +102,34 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#Modal-Publications" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#Modal-Spellcasters" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
 <!--                                 <i class="fa fa-search-plus fa-3x"></i> -->
-                                <p>Publications</p>
+                                <p>Spellcasters VR</p>
                             </div>
                         </div>
                         <img src="img/portfolio/tornadotower.png" class="img-responsive center-block" alt="">
                     </a>
                 </div>
-                <div class="col-sm-6 portfolio-item">
-                    <a href="#Modal-FunProjects" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#Modal-TornadoTower" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
 <!--                                 <i class="fa fa-search-plus fa-3x"></i> -->
-                                <p>Fun Projects</p>
+                                <p>Tornado Tower</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tornadotower.png" class="img-responsive center-block" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#Modal-PebbleLake" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+<!--                                 <i class="fa fa-search-plus fa-3x"></i> -->
+                                <p>Pebble Lake VR</p>
                             </div>
                         </div>
                         <img src="img/portfolio/tornadotower.png" class="img-responsive center-block" alt="">
@@ -263,7 +274,161 @@
     </div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="Modal-Publications" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="Modal-Spellcasters" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Spellcasters VR</h2>
+                            <hr class="star-primary">                       
+                            <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-condensed">
+                                    <tr>
+                                        <td class="td-header">
+                                            Role
+                                        </td>
+                                        <td>
+                                            Gameplay/Network Programmer
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-header">
+                                            Team size
+                                        </td>
+                                        <td>
+                                            6
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-header">
+                                            Date
+                                        </td>
+                                        <td>
+                                            July 2017 - Aug 2017
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-header">
+                                            Platform
+                                        </td>
+                                        <td>
+                                            PC (Windows), HTC Vive/Oculus Touch
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-header">
+                                            Website
+                                        </td>
+                                        <td>
+                                            <a href="https://team-spellcasters.itch.io/spellcasters-vr" target="_blank">
+                                                team-spellcasters.itch.io/spellcasters-vr
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>                            
+                            <a href="https://team-spellcasters.itch.io/spellcasters-vr" class="btn btn-success btn-block active" target="_blank" role="button" aria-pressed="true">Try it out!</a>
+                            <div></div>
+                            <p>Developed under the supervision of the studio <a href="https://www.againstgrav.com/">Against Gravity</a>, creators of social VR game <a href="https://www.againstgrav.com/rec-room/">Rec Room</a>.</p>
+                            <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            <p>
+                                I worked on implementing the round management and the multiplayer networking.
+                            </p>
+                            <hr>
+                            <button ahref="https://team-spellcasters.itch.io/spellcasters-vr" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="Modal-TornadoTower" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Tornado Tower</h2>
+                            <hr class="star-primary">                       
+                            <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/RlpRyL8o5jU" frameborder="0" allowfullscreen></iframe>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-condensed">
+                                    <tr>
+                                        <td class="td-header">
+                                            Role
+                                        </td>
+                                        <td>
+                                            Gameplay Programmer
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-header">
+                                            Team size
+                                        </td>
+                                        <td>
+                                            5
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-header">
+                                            Date
+                                        </td>
+                                        <td>
+                                            July 2017 - Aug 2017
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-header">
+                                            Platform
+                                        </td>
+                                        <td>
+                                            PC (Windows), Oculus Touch
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="td-header">
+                                            Website
+                                        </td>
+                                        <td>
+                                            <a href="https://tornado-tower.itch.io/tornado-tower" target="_blank">
+                                                tornado-tower.itch.io/tornado-tower
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>                            
+                            <a href="https://tornado-tower.itch.io/tornado-tower" class="btn btn-success btn-block active" target="_blank" role="button" aria-pressed="true">Try it out!</a>
+                            <div></div>
+                            <p>Developed under the supervision of the studio <a href="https://www.againstgrav.com/">Against Gravity</a>, creators of social VR game <a href="https://www.againstgrav.com/rec-room/">Rec Room</a>.</p>
+                            <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            <p>
+                                I worked on implementing the round management and the multiplayer networking.
+                            </p>
+                            <hr>
+                            <button ahref="https://team-spellcasters.itch.io/spellcasters-vr" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--     <div class="portfolio-modal modal fade" id="Modal-Publications" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -287,7 +452,7 @@
                                 </p>
                                 <p>
                                     <a href="https://team-spellcasters.itch.io/spellcasters-vr" target="_blank">
-                                        https://team-spellcasters.itch.io/spellcasters-vr
+                                        team-spellcasters.itch.io/spellcasters-vr
                                     </a>
                                 </p>                                
                                 <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
@@ -308,7 +473,7 @@ Built with the goal of creating a truly social online VR experience, Spellcaster
                                 </p>
                                 <p>
                                     <a href="https://tornado-tower.itch.io/tornado-tower" target="_blank">
-                                        https://tornado-tower.itch.io/tornado-tower
+                                        tornado-tower.itch.io/tornado-tower
                                     </a>
                                 </p>
                                 <iframe id="iframe-tornadotower" width="560" height="315" src="https://www.youtube.com/embed/RlpRyL8o5jU" frameborder="0" allowfullscreen></iframe>
@@ -329,7 +494,7 @@ Built with the goal of creating a truly social online VR experience, Spellcaster
                                 </p>
                                 <p>
                                     <a href="https://globalgamejam.org/2017/games/pebble-lake" target="_blank">
-                                        https://globalgamejam.org/2017/games/pebble-lake
+                                        globalgamejam.org/2017/games/pebble-lake
                                     </a>
                                 </p>
                                 <iframe id="iframe-pebblelake" width="560" height="315" src="https://www.youtube.com/embed/i6PiHdq-PbU" frameborder="0" allowfullscreen></iframe>
@@ -345,8 +510,8 @@ Built with the goal of creating a truly social online VR experience, Spellcaster
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="Modal-FunProjects" tabindex="-1" role="dialog" aria-hidden="true">
+    </div> -->
+<!--     <div class="portfolio-modal modal fade" id="Modal-FunProjects" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -368,11 +533,6 @@ Built with the goal of creating a truly social online VR experience, Spellcaster
                                         Oct 2016
                                     </strong>
                                 </p>
-                                <p>
-                                    <a href="https://globalgamejam.org/2017/games/pebble-lake" target="_blank">
-                                        https://globalgamejam.org/2017/games/pebble-lake
-                                    </a>
-                                </p>
                                 <iframe id="iframe-retainrecollect" width="560" height="315" src="https://www.youtube.com/embed/NSdMCskFmLk" frameborder="0" allowfullscreen></iframe>
                             <p>Solo student project based on two verbs: retain and recollect. This is a memory game where the player has 5 mins to familiarize with the locations of varying shapes with varying colors. After the duration is up, the player is assigned 5 colored shapes to search for.</p>
                             </div>
@@ -383,11 +543,6 @@ Built with the goal of creating a truly social online VR experience, Spellcaster
                                     <strong>
                                         Oct 2016
                                     </strong>
-                                </p>
-                                <p>
-                                    <a href="https://tornado-tower.itch.io/tornado-tower" target="_blank">
-                                        https://tornado-tower.itch.io/tornado-tower
-                                    </a>
                                 </p>
                                 <img src="img/portfolio/shouldnt_eaten/layout.jpg" class="img-responsive img-centered" alt="">
                                 <p>This is a 2-week narrative project based on the twist prompt "he shouldn't have eaten that". The board game allows up to 2-3 players where each player performs 2 actions per turn to explore the mysterious dungeon where rumors speak of a legendary fruit that resides within.</p>
@@ -410,14 +565,122 @@ Built with the goal of creating a truly social online VR experience, Spellcaster
                                 <img src="img/portfolio/shouldnt_eaten/team.jpg" class="img-responsive img-centered" alt="">
                                 <p>The team who developed the board game! Here we have (from left to right) Laura Herzberg, Lingyi Qu, and Rayjo Fu.</p>
                             </div>
+                            <hr>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="Modal-Tutorials" tabindex="-1" role="dialog" aria-hidden="true">
+    </div> -->
+<!--     <div class="portfolio-modal modal fade" id="Modal-SFML" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>SFML/C++ Projects</h2>
+                            <hr class="star-primary">
+                            <hr>
+                            <div>
+                                <h3>Connect 4</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Connect4" target="_blank">
+                                        github.com/rayjofu/Connect4
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Poker</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Poker" target="_blank">
+                                        github.com/rayjofu/Poker
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Pong</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Pong" target="_blank">
+                                        github.com/rayjofu/Pong
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Breakout</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Breakout" target="_blank">
+                                        github.com/rayjofu/Breakout
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Asteroids</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Asteroids" target="_blank">
+                                        github.com/rayjofu/Asteroids
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!--     <div class="portfolio-modal modal fade" id="Modal-Tutorials" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -445,47 +708,7 @@ Built with the goal of creating a truly social online VR experience, Spellcaster
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Hope VR</h2>
-                            <hr class="star-primary">
-                            <p>Updates soon!</p>
- <!--
-                            <img src="img/portfolio/tornadotower.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
--->
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </div> -->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>

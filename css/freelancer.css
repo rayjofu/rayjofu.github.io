@@ -503,3 +503,14 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+.td-header {
+  font-weight: bold;
+}
+.portfolio-modal table {
+  margin-top: 15px;
+  text-align: center;
+}
+.portfolio-modal p {
+  text-align: left;
+  margin-top: 20px;
+}
