@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rayjo Fu</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">rayjofu.com</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="Resume_Rayjo.pdf" target="_blank">Résumé</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+<!--                     <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li> -->
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- <img class="img-circle img-responsive" src="http://placehold.it/250x250"> -->
+                    <!-- <img class="img-circle img-responsive" src="img/profile.jpg" alt=""> -->
+                    <div class="intro-text">
+                        <span class="name">Rayjo Fu</span>
+                        <hr class="star-light">
+                        <span class="skills">Game Programmer</span>
+                    </div>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                        <a href="Resume_Rayjo.pdf" class="btn btn-lg btn-outline" target="_blank">
+                            <i class="fa fa-download"></i> Résumé
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#Modal-Spellcasters" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+<!--                                 <i class="fa fa-search-plus fa-3x"></i> -->
+                                <p>Spellcasters VR</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/spellcasters.png" class="img-responsive center-block" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#Modal-TornadoTower" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+<!--                                 <i class="fa fa-search-plus fa-3x"></i> -->
+                                <p>Tornado Tower</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tornadotower.png" class="img-responsive center-block" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#Modal-PebbleLake" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+<!--                                 <i class="fa fa-search-plus fa-3x"></i> -->
+                                <p>Pebble Lake VR</p>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/pebblelake.png" class="img-responsive center-block" alt="">
+                    </a>
+                </div>
+<!--                 <div class="col-sm-4 portfolio-item">
+                    <a href="#Modal-Tutorials" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/tornadotower.png" class="img-responsive center-block" alt="">
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img class="img-circle img-responsive img-centered" src="img/profile.jpg" alt="">
+                </div>
+                <div class="col-sm-6">
+                    <p>As like many others, I have always had a passion for video games (maybe a little too much). It had never occurred to me that developing video games could be a job or a career until I enrolled into the <a href="https://gpm.soe.ucsc.edu/" target="_blank">UC Santa Cruz Games and Playable Media</a> master program. My portfolio currently reflects the major works I developed during the course of the school year, and hopefully, more to come!</p>
+                </div><!-- 
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="Resume_Rayjo.pdf" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Resume
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+<!--
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+-->
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+<!--
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!-- Footer -->
+    <footer class="text-center" id="contact">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4 col-md-offset-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.linkedin.com/in/rayjofu/" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/rayjofu" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/rayjofu" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:rayjofu@gmail.com" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        &copy; 2017 Rayjo Fu
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="Modal-Spellcasters" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Spellcasters VR</h2>
+                            <hr class="star-primary">                       
+                            <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-condensed">
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Role
+                                        </td>
+                                        <td>
+                                            Gameplay/Network Programmer
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Team size
+                                        </td>
+                                        <td>
+                                            6
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Date
+                                        </td>
+                                        <td>
+                                            July 2017 - Aug 2017
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Platform
+                                        </td>
+                                        <td>
+                                            PC (Windows), HTC Vive/Oculus Touch
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Website
+                                        </td>
+                                        <td>
+                                            <a href="https://team-spellcasters.itch.io/spellcasters-vr" target="_blank">
+                                                team-spellcasters.itch.io/spellcasters-vr
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>                            
+                            <a href="https://team-spellcasters.itch.io/spellcasters-vr" class="btn btn-success btn-block active" target="_blank" role="button" aria-pressed="true">Try it out!</a>
+                            <div></div>
+                            <p>
+Built with the goal of creating a social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Players choose between 3 roles (conjurer, guardian, shaman) and use their wands to draw magical glyphs to summon offensive or supporting spells. Communication and strategy are necessary to obtain victory in this fast pace battle between spellcasters.</p>
+                            <p>
+                                I implemented the lobby, scoreboard, round management, and multiplayer networking.
+                            </p>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="Modal-TornadoTower" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Tornado Tower</h2>
+                            <hr class="star-primary">                       
+                            <iframe id="iframe-tornadotower" width="560" height="315" src="https://www.youtube.com/embed/RlpRyL8o5jU" frameborder="0" allowfullscreen></iframe>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-condensed">
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Role
+                                        </td>
+                                        <td>
+                                            Lead Programmer
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Team size
+                                        </td>
+                                        <td>
+                                            5
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Date
+                                        </td>
+                                        <td>
+                                            Jan 2017 - June 2017
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Platform
+                                        </td>
+                                        <td>
+                                            PC (Windows), Oculus Touch
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Website
+                                        </td>
+                                        <td>
+                                            <a href="https://tornado-tower.itch.io/tornado-tower" target="_blank">
+                                                tornado-tower.itch.io/tornado-tower
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>                            
+                            <a href="https://tornado-tower.itch.io/tornado-tower" class="btn btn-success btn-block active" target="_blank" role="button" aria-pressed="true">Try it out!</a>
+                            <div></div>
+                            <p>
+                                Unlike the majority of VR games of which are in first person, Tornado Tower is a third person platformer where players simultaneously control the human adventurer Zaru and his wind spirit companion. The wind spirit moves through the rotation of the right hand and has the ability to create gusts of wind that allows Zaru to travel to higher and farther platforms.
+                            </p>
+                            <p>
+                                Tornado Tower was also showcased in E3 2017 The MIX. See what <a href="http://gametyrant.com/news/e3-2017-first-impressions-tornado-tower" target="_blank">Game Tyrant</a>, <a href="http://entertainium.org/pc/from-e3-2017-the-mix/" target="_blank">Entertainium</a>, and <a href="http://concealedgaming.net/tornado-tower-puts-a-twist-on-platforming-that-refreshes-a-stale-genre-6-25-2017/" target="_blank">Concealed Gaming</a> have to say!
+                            </p>
+                            <p>
+                                I implemented the camera panning, cinematics, circular spline-based movement, enemy behaviors, ledge grab and wind mechanic, and the UI.
+                            </p>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="Modal-PebbleLake" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Pebble Lake VR</h2>
+                            <hr class="star-primary">                       
+                            <iframe id="iframe-pebblelake" width="560" height="315" src="https://www.youtube.com/embed/i6PiHdq-PbU" frameborder="0" allowfullscreen></iframe>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-condensed">
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Role
+                                        </td>
+                                        <td>
+                                            Gameplay Programmer
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Team size
+                                        </td>
+                                        <td>
+                                            7
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Date
+                                        </td>
+                                        <td>
+                                            Jan 2017
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Platform
+                                        </td>
+                                        <td>
+                                            PC (Windows), HTC Vive
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Website
+                                        </td>
+                                        <td>
+                                            <a href="https://globalgamejam.org/2017/games/pebble-lake" target="_blank">
+                                                globalgamejam.org/2017/games/pebble-lake
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>                            
+                            <a href="https://ggj.s3.amazonaws.com/games/2017/01/22/1503/pebblelake.zip" class="btn btn-success btn-block active" target="_blank" role="button" aria-pressed="true">Try it out!</a>
+                            <div></div>
+                            <p>
+                                Pebble Lake VR is a zen, meditative game where players skip rocks and create small <i>waves</i> on the calm lake as the environment cycles through day and night. The idea was conceived for the Global Game Jam 2017 for the prompt "wave" and created within 72 hours.
+                            </p>
+                            <p>
+                                I implemented the rippling of the water when a pebble was thrown into the lake.
+                            </p>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--     <div class="portfolio-modal modal fade" id="Modal-Publications" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Publications</h2>
+                            <hr class="star-primary">
+                            <hr>
+                            <div>
+                                <h3>Spellcasters VR</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://team-spellcasters.itch.io/spellcasters-vr" target="_blank">
+                                        team-spellcasters.itch.io/spellcasters-vr
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>Developed under the supervision of Against Gravity, creators of social VR game Rec Room.</p>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                                <p>
+                                    I worked on implementing the round management and the multiplayer networking.
+                                </p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Tornado Tower</h3>
+                                <p>
+                                    <strong>
+                                        Jan 2017 - June 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://tornado-tower.itch.io/tornado-tower" target="_blank">
+                                        tornado-tower.itch.io/tornado-tower
+                                    </a>
+                                </p>
+                                <iframe id="iframe-tornadotower" width="560" height="315" src="https://www.youtube.com/embed/RlpRyL8o5jU" frameborder="0" allowfullscreen></iframe>
+                                <p>
+                                    Tornado Tower is a VR third person platformer made in Unreal Engine 4 for the Oculus Touch. Watch the adventure of a young prince as he explores the Tornado Tower with the aid of a whimisical wind spirit to look for the person responsible for the death of his family.
+                                </p>
+                                <p>
+                                    I worked on implementing the camera panning, circular spline-based movement, wind and enemy behaviors, cinematics, and UI.
+                                </p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Pebble Lake VR</h3>
+                                <p>
+                                    <strong>
+                                        Jan 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://globalgamejam.org/2017/games/pebble-lake" target="_blank">
+                                        globalgamejam.org/2017/games/pebble-lake
+                                    </a>
+                                </p>
+                                <iframe id="iframe-pebblelake" width="560" height="315" src="https://www.youtube.com/embed/i6PiHdq-PbU" frameborder="0" allowfullscreen></iframe>
+                                <p>Pebble Lake is a relaxing VR zen rock skipping simulator made in Unity 5 for the HTC Vive. The game was created within 72 hours for the Global Game Jam 2017.</p>
+                                <p>
+                                    I worked on implementing the ripple effects on the water.
+                                </p>
+                            </div>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!--     <div class="portfolio-modal modal fade" id="Modal-FunProjects" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Fun Projects</h2>
+                            <hr class="star-primary">
+                            <hr>
+                            <div>
+                                <h3>Retain and Recollect</h3>
+                                <p>
+                                    <strong>
+                                        Oct 2016
+                                    </strong>
+                                </p>
+                                <iframe id="iframe-retainrecollect" width="560" height="315" src="https://www.youtube.com/embed/NSdMCskFmLk" frameborder="0" allowfullscreen></iframe>
+                            <p>Solo student project based on two verbs: retain and recollect. This is a memory game where the player has 5 mins to familiarize with the locations of varying shapes with varying colors. After the duration is up, the player is assigned 5 colored shapes to search for.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Shouldn't Eaten</h3>
+                                <p>
+                                    <strong>
+                                        Oct 2016
+                                    </strong>
+                                </p>
+                                <img src="img/portfolio/shouldnt_eaten/layout.jpg" class="img-responsive img-centered" alt="">
+                                <p>This is a 2-week narrative project based on the twist prompt "he shouldn't have eaten that". The board game allows up to 2-3 players where each player performs 2 actions per turn to explore the mysterious dungeon where rumors speak of a legendary fruit that resides within.</p>
+                                
+                                <img src="img/portfolio/shouldnt_eaten/characters.jpg" class="img-responsive img-centered" alt="">
+                                <p>These are the adventurers that brave the dungeons in their quest to find the legendary fruit. Each start with their respective weapon and varying stats, might and speed, which determine how many dice the player rolls when performing certain actions. Yellow tokens represent items found in the dungeon whereas red tokens represent damage taken.</p>
+
+                                <img src="img/portfolio/shouldnt_eaten/room1.jpg" class="img-responsive img-centered" alt="">
+                                <p>This is the first room where the players must solve the sphinx's riddle while constantly swarmed by vicious spiders.</p>
+
+                                <img src="img/portfolio/shouldnt_eaten/room2.jpg" class="img-responsive img-centered" alt="">
+                                <p>This is the second room where the players must find the key to the exit while bandit mice hinder your progress by stealing your inventory.</p>
+
+                                <img src="img/portfolio/shouldnt_eaten/room3.jpg" class="img-responsive img-centered" alt="">
+                                <p>This is the third room (in which I designed) where the players are trapped and must find the exits for the maze before the room fills up with water and they drown. The room is supposed to be revealed piece by piece as the players enter those respective regions.</p>
+
+                                <img src="img/portfolio/shouldnt_eaten/boss.jpg" class="img-responsive img-centered" alt="">
+                                <p>This is the final room with the boss, and the twist! Will the adventurers prevail or perish?</p>
+
+                                <img src="img/portfolio/shouldnt_eaten/team.jpg" class="img-responsive img-centered" alt="">
+                                <p>The team who developed the board game! Here we have (from left to right) Laura Herzberg, Lingyi Qu, and Rayjo Fu.</p>
+                            </div>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!--     <div class="portfolio-modal modal fade" id="Modal-SFML" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>SFML/C++ Projects</h2>
+                            <hr class="star-primary">
+                            <hr>
+                            <div>
+                                <h3>Connect 4</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Connect4" target="_blank">
+                                        github.com/rayjofu/Connect4
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Poker</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Poker" target="_blank">
+                                        github.com/rayjofu/Poker
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Pong</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Pong" target="_blank">
+                                        github.com/rayjofu/Pong
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Breakout</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Breakout" target="_blank">
+                                        github.com/rayjofu/Breakout
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <div>
+                                <h3>Asteroids</h3>
+                                <p>
+                                    <strong>
+                                        July 2017 - Aug 2017
+                                    </strong>
+                                </p>
+                                <p>
+                                    <a href="https://github.com/rayjofu/Asteroids" target="_blank">
+                                        github.com/rayjofu/Asteroids
+                                    </a>
+                                </p>                                
+                                <iframe id="iframe-spellcasters" width="560" height="315" src="https://www.youtube.com/embed/Un4c3EqQ79U" frameborder="0" allowfullscreen></iframe>
+                                <p>
+Built with the goal of creating a truly social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Each player chooses their role (attacker, tank, healer), and draws gestures with their wands to summon offensive or defensive spells. Strategizing in the heat of battle is a must, as each role has unique abilities that will greatly benefit their team members. This project supports multiplatform players using both the HTC Vive and Oculus Rift to connect and play together.</p>
+                            </div>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+<!--     <div class="portfolio-modal modal fade" id="Modal-Tutorials" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Tutorials</h2>
+                            <hr class="star-primary">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZP7CkKIkvsU" frameborder="0" allowfullscreen></iframe>
+                            <p>Tornado Tower is a VR third person side-scrolling platformer made in Unreal Engine 4 for the Oculus Touch. Watch the adventure of a young prince as he explores the Tornado Tower with the aid of a whimisical wind spirit to look for the person responsible for the death of his family. The game is still under development, but you can check out the <a href="http://www.tornado-tower.com" target="_blank">official website</a> for updates!</p>
+                            <ul class="list-inline item-details">
+                                <li>Date:
+                                    <strong>February 2017
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>

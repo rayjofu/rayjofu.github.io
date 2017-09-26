@@ -514,3 +514,6 @@ fieldset[disabled] .btn-success.active {
   text-align: left;
   margin-top: 20px;
 }
+#about a {
+  color: yellow;
+}
