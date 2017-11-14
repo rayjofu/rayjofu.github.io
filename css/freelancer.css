@@ -28,7 +28,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
 }
 hr.star-light,
@@ -83,7 +83,7 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   font-size: 2em;
 }
@@ -516,4 +516,20 @@ fieldset[disabled] .btn-success.active {
 }
 #about a {
   color: yellow;
+}
+section h3 {
+  margin: 0;
+  font-size: 2em;
+  color:  #18BC9C;
+}
+.subheader {
+  color:  #18BC9C;
+  margin-top: 0.5cm;
+  margin-bottom: 0.75cm;
+}
+hr.portfolio-star-primary {
+  max-width: 160px;
+}
+hr.about-star-light {
+  max-width: 110px;
 }
