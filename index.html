@@ -147,17 +147,17 @@
 								<p>Little Alchemy Imitation</p>
 							</div>
 						</div>
-						<img src="img/portfolio/LittleAlchemyImitation.PNG" class="img-responsive center-block" alt="">
+						<img src="img/portfolio/LittleAlchemyImitation_thumbnail.PNG" class="img-responsive center-block" alt="">
 					</a>
 				</div>
 				<div class="col-sm-4 portfolio-item"></div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-lg-12 text-center">
 					<h2 class="subheader">SFML/C++</h2>
 				</div>
 			</div>
-			<!-- <div class="row">
+			<div class="row">
 				<div class="col-sm-4 portfolio-item">
 					<a href="#Modal-SFML" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
@@ -196,7 +196,7 @@
                     <img class="img-circle img-responsive img-centered" src="img/profile.jpg" alt="">
                 </div>
                 <div class="col-sm-6">
-                    <p>Rayjo has a passion for developing games.</p>
+                    <p>Rayjo has a passion for programming and developing games. He is always down to play games with others, especially board games. He also loves eating spicy foods and reading manga and light novels. One day, he hopes to open up his own game studio.</p>
                 </div>
             </div>
         </div>
@@ -310,9 +310,15 @@
                             <a href="https://team-spellcasters.itch.io/spellcasters-vr" class="btn btn-success btn-block active" target="_blank" role="button" aria-pressed="true">Try it out!</a>
                             <div></div>
                             <p>
-Built with the goal of creating a social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Players choose between 3 roles (conjurer, guardian, shaman) and use their wands to draw magical glyphs to summon offensive or supporting spells. Communication and strategy are necessary to obtain victory in this fast pace battle between spellcasters.</p>
+Built with the goal of creating a social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Players choose between 3 roles (conjurer, guardian, shaman) and use their wands to draw magical glyphs to cast offensive or supporting spells. Communication and strategy are necessary to obtain victory in this fast pace battle between spellcasters.</p>
                             <p>
-                                I implemented the lobby, scoreboard, round management, and multiplayer networking.
+                                Initially, I was in charge of researching and establishing the multiplayer framework using Photon Unity Network. After that, I worked on many of the systems in the game.
+                        	</p>
+                        	<p>
+                                I implemented the game loop transitions: making sure players were informed on what to do inside the lobby, putting players into teams, teleporting players to the arena and starting the round, placing players into penalty box before respawning them back into the arena, scoring, displaying match results, and teleporting players back to lobby to repeat the game loop.
+                            </p>
+                            <p>
+                                I created the foundation for the lobby, the round countdown display, the scoreboard, and the randomly assigned usernames on top of players. I also worked on the power-ups, spell targeting, and the randomizing of arena maps.
                             </p>
                             <hr>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -392,7 +398,10 @@ Built with the goal of creating a social online VR experience, Spellcasters VR t
                                 Tornado Tower was also showcased in E3 2017 The MIX. See what <a href="http://gametyrant.com/news/e3-2017-first-impressions-tornado-tower" target="_blank">Game Tyrant</a>, <a href="http://entertainium.org/pc/from-e3-2017-the-mix/" target="_blank">Entertainium</a>, and <a href="http://concealedgaming.net/tornado-tower-puts-a-twist-on-platforming-that-refreshes-a-stale-genre-6-25-2017/" target="_blank">Concealed Gaming</a> have to say!
                             </p>
                             <p>
-                                I implemented the camera panning, cinematics, circular spline-based movement, enemy behaviors, ledge grab and wind mechanic, and the UI.
+                                Since there was a great lack of programmers on the team, I established a framework for level designers to design levels without any need to touch the code. I also created the UI for the main and pause menu.
+                            </p>
+                            <p>
+                            	I implemented the signature ability in the game, motion-controlled wind mechanic which allows the player to travel farther and higher heights as well as interact with the environment. I also implemented the camera control, circular spline-based movement, motion-controlled cursor, enemy AI behavior, cutscenes, ledge grab, boomerang, various puzzle mechanics, and the tutorial hints. I also helped work on the save system, character respawn, and traps.
                             </p>
                             <hr>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -469,7 +478,7 @@ Built with the goal of creating a social online VR experience, Spellcasters VR t
                                 Pebble Lake VR is a zen, meditative game where players skip rocks and create small <i>waves</i> on the calm lake as the environment cycles through day and night. The idea was conceived for the Global Game Jam 2017 for the prompt "wave" and created within 72 hours.                                
                             </p>
                             <p>
-                                I implemented the rippling of the water when a pebble was thrown into the lake.
+                                I worked on the rippling of the water when a pebble was thrown into the lake.
                             </p>
                             <hr>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -493,7 +502,8 @@ Built with the goal of creating a social online VR experience, Spellcasters VR t
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Little Alchemy Imitation</h2>
-                            <hr class="star-primary">                       
+                            <hr class="star-primary">
+                            <img src="img/portfolio/LittleAlchemyImitation.PNG" class="img-responsive center-block" alt="">
                             <!-- <iframe id="iframe-pebblelake" width="560" height="315" src="https://www.youtube.com/embed/i6PiHdq-PbU" frameborder="0" allowfullscreen></iframe> -->
                             <div class="table-responsive">
                                 <table class="table table-bordered table-condensed">
@@ -544,7 +554,7 @@ Built with the goal of creating a social online VR experience, Spellcasters VR t
                             <a href="http://www.rayjofu.com/LittleAlchemyImitation.zip" class="btn btn-success btn-block active" download role="button" aria-pressed="true">Try it out!</a>
                             <div></div>
                             <p>
-                                This is a small demo imitating an abridged version of Little Alchemy using PyQt and Python. The player must combine different components to discover all the recipes. Recipes are generated through an input file which can be modified for customized recipes. This demo uses mimedata for drag and drop events, and was heavily modified from PyQt's fridgemagnet example.
+                                This is a small demo imitating an abridged version of Little Alchemy using PyQt and Python. The player must combine different components to discover all the recipes. Recipes are generated through an input file which can be modified for customized recipes. This demo was heavily modified from PyQt's fridgemagnet example. The event handler took a major overhaul in order to implement the crafting mechanic.
                             </p>
                             <hr>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
