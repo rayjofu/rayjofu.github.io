@@ -102,7 +102,17 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 portfolio-item">
+				<div class="col-sm-3 portfolio-item">
+					<a href="#Modal-ClashOfMagicVR" class="portfolio-link" data-toggle="modal">
+						<div class="caption">
+							<div class="caption-content">
+								<p>Clash of Magic VR</p>
+							</div>
+						</div>
+						<img src="img/portfolio/clashofmagic.png" class="img-responsive center-block" alt="">
+					</a>
+				</div>
+				<div class="col-sm-3 portfolio-item">
 					<a href="#Modal-Spellcasters" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
@@ -112,7 +122,7 @@
 						<img src="img/portfolio/spellcasters.PNG" class="img-responsive center-block" alt="">
 					</a>
 				</div>
-				<div class="col-sm-4 portfolio-item">
+				<div class="col-sm-3 portfolio-item">
 					<a href="#Modal-TornadoTower" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
@@ -122,7 +132,7 @@
 						<img src="img/portfolio/tornadotower.png" class="img-responsive center-block" alt="">
 					</a>
 				</div>
-				<div class="col-sm-4 portfolio-item">
+				<div class="col-sm-3 portfolio-item">
 					<a href="#Modal-PebbleLake" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
@@ -256,6 +266,96 @@
     </div>
 
     <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="Modal-ClashOfMagicVR" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Clash of Magic VR</h2>
+                            <hr class="star-primary">
+                            <iframe id="iframe-clashofmagic" width="560" height="315" src="https://www.youtube.com/embed/WgOEyZee2QI" frameborder="0" allowfullscreen></iframe>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-condensed">
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Role
+                                        </td>
+                                        <td>
+                                            Gameplay/Network Programmer
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Company
+                                        </td>
+                                        <td>
+                                        	<a href="http://narvalous.org/" target="_blank">
+                                            	Narvalous
+                                        	</a>
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Team size
+                                        </td>
+                                        <td>
+                                            8
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Date
+                                        </td>
+                                        <td>
+                                            Dec. 2017 - Mar. 2018
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Platform
+                                        </td>
+                                        <td>
+                                            PC (Windows), HTC Vive/Oculus Touch
+                                        </td>
+                                    </tr>
+                                    <tr class="info">
+                                        <td class="td-header">
+                                            Website
+                                        </td>
+                                        <td>
+                                            <a href="http://narvalous.org/clash-of-magic/" target="_blank">
+                                                narvalous.org/clash-of-magic/
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>                            
+                            <a href="http://store.steampowered.com/app/733550/Clash_of_Magic_VR/" class="btn btn-success btn-block active" target="_blank" role="button" aria-pressed="true">Try it out!</a>
+                            <div></div>
+                            <p>
+                            	Clash of Magic VR is an online multiplayer strategy tower rush game with gameplay akin to Clash Royale. It is currently released on Steam for early access!
+                            </p>
+                            <p>
+                                I joined the project during its late stages to help prepare the game for early access. My main responsibilities were to add features in Unreal Engine, work on the back-end (PHP, MySQL), perform QA testing, and fix bugs.
+                        	</p>
+                        	<p>
+                                I worked on storing PvP match data. I created a bot game so that there would always be a game for players to spectate. I added stars to the campaign to mark player progress. I ported the game to Steam and made it compatible with HTC Vive (originally built for Oculus store). I created new methods to instantly and independently test multiplayer which significantly improved the efficiency of QA testing.
+                            </p>
+                            <hr>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="portfolio-modal modal fade" id="Modal-Spellcasters" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -320,7 +420,8 @@
                             <a href="https://team-spellcasters.itch.io/spellcasters-vr" class="btn btn-success btn-block active" target="_blank" role="button" aria-pressed="true">Try it out!</a>
                             <div></div>
                             <p>
-Built with the goal of creating a social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Players choose between 3 roles (conjurer, guardian, shaman) and use their wands to draw magical glyphs to cast offensive or supporting spells. Communication and strategy are necessary to obtain victory in this fast pace battle between spellcasters.</p>
+Built with the goal of creating a social online VR experience, Spellcasters VR takes the fantasy of the magic duels from Harry Potter, and turns it into a team based competitive experience. Players choose between 3 roles (conjurer, guardian, shaman) and use their wands to draw magical glyphs to cast offensive or supporting spells. Communication and strategy are necessary to obtain victory in this fast pace battle between spellcasters.
+							</p>
                             <p>
                                 Initially, I was in charge of researching and establishing the multiplayer framework using Photon Unity Network. After that, I worked on many of the systems in the game.
                         	</p>
@@ -376,7 +477,7 @@ Built with the goal of creating a social online VR experience, Spellcasters VR t
                                             Date
                                         </td>
                                         <td>
-                                            Jan. 2017 - Present
+                                            Jan. 2017 - June 2017
                                         </td>
                                     </tr>
                                     <tr class="info">
@@ -827,5 +928,4 @@ Built with the goal of creating a social online VR experience, Spellcasters VR t
     <script src="js/freelancer.min.js"></script>
     
 </body>
-
 </html>

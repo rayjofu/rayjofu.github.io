@@ -43,6 +43,7 @@
 
     // Reload Youtube Videos after closing modal
     $(".portfolio-modal").on('hidden.bs.modal', function (e) {
+        $(".portfolio-modal #iframe-clashofmagic").attr("src", $(".portfolio-modal #iframe-clashofmagic").attr("src"));
         $(".portfolio-modal #iframe-spellcasters").attr("src", $(".portfolio-modal #iframe-spellcasters").attr("src"));
         $(".portfolio-modal #iframe-tornadotower").attr("src", $(".portfolio-modal #iframe-tornadotower").attr("src"));
         $(".portfolio-modal #iframe-pebblelake").attr("src", $(".portfolio-modal #iframe-pebblelake").attr("src"));
